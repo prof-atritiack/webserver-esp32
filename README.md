@@ -10,14 +10,12 @@ Cada exemplo possui código `.ino` comentado e documentação de apoio.
 ### 1. Servidor Web ESP32 com Monitoramento de Temperatura e Umidade
 - Leitura de temperatura e umidade usando **DHT11**.  
 - Exibição em uma página web hospedada no ESP32.  
-- Interface em HTML/CSS com cartões e atualização automática via JavaScript.  
-- Pasta: [`ESP32_DHT_WebServer`](./ESP32_DHT_WebServer).  
+- Interface em HTML/CSS com cartões e atualização automática via JavaScript.   
 
 ### 2. Servidor Web ESP32 com Controle de LED (GPIO 2)
 - Controle de um LED conectado ao **GPIO 2** do ESP32 via navegador.  
 - Interface em HTML com botões ON/OFF.  
 - Exibição do estado atual do LED na página.  
-- Pasta: [`ESP32_WebServer_GPIO`](./ESP32_WebServer_GPIO).  
 
 ---
 
