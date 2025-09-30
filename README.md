@@ -1,7 +1,7 @@
 # WebServer ESP32
 
 Este repositório reúne exemplos práticos de uso do **ESP32** como servidor web em diferentes aplicações.  
-Cada exemplo possui código `.ino` comentado e documentação de apoio.
+Os códigos `.ino` estão organizados em pastas separadas, todos comentados e prontos para uso didático.
 
 ---
 
@@ -10,12 +10,14 @@ Cada exemplo possui código `.ino` comentado e documentação de apoio.
 ### 1. Servidor Web ESP32 com Monitoramento de Temperatura e Umidade
 - Leitura de temperatura e umidade usando **DHT11**.  
 - Exibição em uma página web hospedada no ESP32.  
-- Interface em HTML/CSS com cartões e atualização automática via JavaScript.   
+- Interface em HTML/CSS com cartões e atualização automática via JavaScript.  
+- Código: `ESP32_Sensor_WebServer.ino`
 
 ### 2. Servidor Web ESP32 com Controle de LED (GPIO 2)
 - Controle de um LED conectado ao **GPIO 2** do ESP32 via navegador.  
 - Interface em HTML com botões ON/OFF.  
 - Exibição do estado atual do LED na página.  
+- Código: `ESP32_Botao_WebServer.ino`
 
 ---
 
@@ -35,15 +37,13 @@ Cada exemplo possui código `.ino` comentado e documentação de apoio.
 ```
 webserver-esp32/
 │
-├── ESP32_DHT_WebServer/
-│   ├── ESP32_DHT_WebServer.ino
-│   └── README.md
+├── ESP32_Sensor_WebServer/
+│   └── ESP32_Sensor_WebServer.ino
 │
-├── ESP32_WebServer_GPIO/
-│   ├── ESP32_WebServer_GPIO.ino
-│   └── README.md
+├── ESP32_Botao_WebServer/
+│   └── ESP32_Botao_WebServer.ino
 │
-└── README.md   <-- este arquivo
+└── README.md
 ```
 
 ---
