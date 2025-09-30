@@ -15,8 +15,8 @@
 #include <WiFi.h>
 
 // Credenciais da rede Wi-Fi
-const char* ssid = "aptodaIsabella";
-const char* password = "bellabella1302";
+const char* ssid = "";
+const char* password = "";
 
 // Servidor Web rodando na porta 80
 WiFiServer server(80);
